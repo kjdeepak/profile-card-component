@@ -59,6 +59,7 @@ body {
 .card__body>p {
     margin-bottom: 24px;
     color: var(--dark-gray);
+    font-weight: 400;
 }
 
 .card__body>hr {
@@ -93,6 +94,7 @@ body {
 
 .name-container>h1 {
     margin-right: 4px;
+    font-weight: 700;
 }
 
 .name-container {
@@ -114,6 +116,7 @@ body {
 .stats-two>h2,
 .stats-three>h2 {
     margin-bottom: 4px;
+    font-weight: 700;
 }
 
 .attribution {
