@@ -17,8 +17,7 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background: url(./images/bg-pattern-top.svg) left -250vw top -150vw no-repeat, url(./images/bg-pattern-bottom.svg) right -250vw bottom -350vw no-repeat;
-    background-color: var(--dark-cyan);
+    background: url("../images/bg-pattern-top.svg") right 52vw bottom -65vh no-repeat, url("../images/bg-pattern-bottom.svg") left 49vw top 49vh no-repeat, var(--dark-cyan);
 }
 
 .container {
@@ -127,34 +126,4 @@ body {
 
 .attribution a {
     color: var(--anchor-blue)
-}
-
-@media screen and (min-width: 375px) {
-    body {
-        background-position: left -210vw top -125vw, right -205vw bottom -330vw;
-    }
-}
-
-@media screen and (min-width: 425px) {
-    body {
-        background-position: left -180vw top -110vw, right -175vw bottom -290vw;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    body {
-        background-position: left -75vw top -65vw, right -75vw bottom -165vw;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    body {
-        background-position: left -45vw top -45vw, right -45vw bottom -130vw;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    body {
-        background-position: left -18vw top -35vw, right -15vw bottom -85vw;
-    }
 }
